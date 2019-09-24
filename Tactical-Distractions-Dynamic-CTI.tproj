@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectRootNode Name="Tactical-Distractions-Dynamic-CTI" IsExpanded="true" FileName="">
-    <IsSelected>false</IsSelected>
+    <IsSelected>true</IsSelected>
     <SubNodes>
-      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="res" IsExpanded="true" FileName="res">
+      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="res" IsExpanded="false" FileName="res">
         <IsSelected>false</IsSelected>
         <SubNodes />
       </ProjectNodeViewModel>
-      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="scripts" IsExpanded="true" FileName="scripts">
+      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="scripts" IsExpanded="false" FileName="scripts">
         <IsSelected>false</IsSelected>
         <SubNodes>
-          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="client" IsExpanded="true" FileName="scripts\client">
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="client" IsExpanded="false" FileName="scripts\client">
             <IsSelected>false</IsSelected>
             <SubNodes>
               <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="initialise_client.sqf" IsExpanded="false" FileName="scripts\client\initialise_client.sqf">
-                <IsSelected>true</IsSelected>
+                <IsSelected>false</IsSelected>
                 <SubNodes />
               </ProjectNodeViewModel>
             </SubNodes>
           </ProjectNodeViewModel>
-          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="server" IsExpanded="true" FileName="scripts\server">
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="server" IsExpanded="false" FileName="scripts\server">
             <IsSelected>false</IsSelected>
             <SubNodes>
-              <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="offloading" IsExpanded="true" FileName="scripts\server\offloading">
+              <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="offloading" IsExpanded="false" FileName="scripts\server\offloading">
                 <IsSelected>false</IsSelected>
                 <SubNodes>
                   <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="headless_client_manager.sqf" IsExpanded="false" FileName="scripts\server\offloading\headless_client_manager.sqf">
@@ -37,7 +37,7 @@
               </ProjectNodeViewModel>
             </SubNodes>
           </ProjectNodeViewModel>
-          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="shared" IsExpanded="true" FileName="scripts\shared">
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="shared" IsExpanded="false" FileName="scripts\shared">
             <IsSelected>false</IsSelected>
             <SubNodes>
               <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="initialise_shared_script_library.sqf" IsExpanded="false" FileName="scripts\shared\initialise_shared_script_library.sqf">
